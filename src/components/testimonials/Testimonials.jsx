@@ -11,7 +11,7 @@ const Testimonials = () => {
 			desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
 		},
 		{
-			id: 1,
+			id: 2,
 			name: "Iyappan Annamalai",
 			title: "Founder - EduTricks & Learn",
 			img: "assets/iyyps.jpg",
@@ -20,7 +20,7 @@ const Testimonials = () => {
 			featured: true,
 		},
 		{
-			id: 1,
+			id: 3,
 			name: "----- ------",
 			title: "***********************",
 			img: "assets/nouser.png",
@@ -34,7 +34,7 @@ const Testimonials = () => {
 			<h1>Testimonials</h1>
 			<div className="container">
 				{data.map((d) => (
-					<div className={d.featured ? "card featured" : "card"}>
+					<div key={d.id} className={d.featured ? "card featured" : "card"}>
 						<div className="top">
 							<img src="assets/right-arrow.png" alt="" className="left" />
 							<img src={d.img} alt="" className="user" />

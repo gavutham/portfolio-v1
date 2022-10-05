@@ -38,6 +38,7 @@ const Portfolio = () => {
 						active={selected === i.id}
 						setSelected={setSelected}
 						id={i.id}
+						key={i.id}
 					/>
 				))}
 			</ul>
@@ -45,7 +46,7 @@ const Portfolio = () => {
 				{data.map((d) => (
 					<div
 						className="item"
-						id={d.id}
+						key={d.id}
 						onClick={() => d.link && redirect(d.link)}
 					>
 						<img src={d.img} alt="" />

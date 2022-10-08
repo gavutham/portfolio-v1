@@ -13,8 +13,9 @@ export const featuredPortfolio = [
 	},
 	{
 		id: 3,
-		title: "No Data",
-		img: "assets/nodata.png",
+		title: "Quiz App",
+		img: "assets/crorepati.png",
+		link: "https://crorepati-by-creatorsneo.netlify.app/",
 	},
 	{
 		id: 4,
@@ -48,8 +49,9 @@ export const webPortfolio = [
 	},
 	{
 		id: 3,
-		title: "No Data",
-		img: "assets/nodata.png",
+		title: "Quiz App",
+		img: "assets/crorepati.png",
+		link: "https://crorepati-by-creatorsneo.netlify.app/",
 	},
 	{
 		id: 4,

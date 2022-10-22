@@ -19,8 +19,9 @@ export const featuredPortfolio = [
 	},
 	{
 		id: 4,
-		title: "No Data",
-		img: "assets/nodata.png",
+		title: "Blog App",
+		img: "assets/blog.png",
+		link: "https://react-node-blog-site.netlify.app/",
 	},
 	{
 		id: 5,
@@ -55,8 +56,9 @@ export const webPortfolio = [
 	},
 	{
 		id: 4,
-		title: "No Data",
-		img: "assets/nodata.png",
+		title: "Blog App",
+		img: "assets/blog.png",
+		link: "https://react-node-blog-site.netlify.app/",
 	},
 	{
 		id: 5,

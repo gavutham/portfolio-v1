@@ -9,7 +9,7 @@ export const featuredPortfolio = [
 		id: 2,
 		title: "Ecommerce Website",
 		img: "assets/shophub.png",
-		link: "https://shophub-by-creatorsneo.netlify.app/",
+		link: "https://shophub-ecom.netlify.app/",
 	},
 	{
 		id: 3,
@@ -40,7 +40,7 @@ export const webPortfolio = [
 		id: 1,
 		title: "Ecommerce Website",
 		img: "assets/shophub.png",
-		link: "https://shophub-by-creatorsneo.netlify.app/",
+		link: "https://shophub-ecom.netlify.app/",
 	},
 	{
 		id: 2,
